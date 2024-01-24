@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(123, 165, 201, 0.444);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    background-color: white;
+    margin: 100px auto 50px auto;
+}
+
+.cell {
+    border: 1px solid rgb(0, 0, 0);
+}
+.cell-hovered{
+    background-color: red;
+}
